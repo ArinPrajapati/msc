@@ -34,8 +34,5 @@ public:
 
 	return res;
 
-
-
-
     }
 };

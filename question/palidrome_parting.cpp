@@ -16,8 +16,7 @@ private:
     }
     return true;
   }
-  void backtrack(string s, int index, vector<vector<string>> &res,
-                 vector<string> &part) {
+  void backtrack(string s, int index, vector<vector<string>> &res,vector<string> &part) {
     if (index == s.length()) {
       res.push_back(part);
       return;
