@@ -11,6 +11,7 @@ private:
             return memo[n];
         }
         if(n <= 2) return 1;
+        cout << "Calculating fibo(" << n-1 << n -2 << ")" << endl;
         memo[n]  =  fibo(n - 1,memo) + fibo(n - 2,memo);
         return memo[n];
     }

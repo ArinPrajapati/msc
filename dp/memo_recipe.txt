@@ -1,0 +1,17 @@
+1.Make it work:
+visualize the problem
+implements the tree using rescursion 
+visualize the tree
+test it 
+
+
+we should be able to visualize the tree and have working code that can be used to solve the problem
+
+
+2. move to memo:
+
+add memo object 
+add a baase case to return memo object 
+store return values into the memo 
+
+
